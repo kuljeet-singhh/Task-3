@@ -4,13 +4,14 @@ let arr2=[4,5,6,1,2,4,6];
 function mergeArray(arr1,arr2){
     let arr=[];
     for(let val of arr1){
-        arr2.includes(arr1)
+       if( !arr2.includes(val)){
     arr.push(val)
+       }
     }
     return arr;
 }
 console.log("array1= "+arr1)
-console.log("array1= "+arr1)
+console.log("array2= "+arr2)
 const sol=mergeArray(arr1,arr2);
 console.log("result = "+sol)
 
