@@ -18,8 +18,8 @@ function addStrings(num1, num2) {
 
   return res;
 }
-let s1 = "322222323";
-let s2 = "2323555656";
+let s1 = "123456789";
+let s2 = "987654321";
 console.log("strins1 = " + s1)
 console.log("strins2 = " + s2)
 ans = addStrings(s1, s2);
@@ -32,3 +32,4 @@ console.log(typeof ans);
 document.getElementById("demo1").innerHTML = "strins1 = " + s1;
 document.getElementById("demo2").innerHTML = "strins2 = " + s2;
 document.getElementById("demo3").innerHTML = "add two strins = " + ans;
+"123456789", "987654321"

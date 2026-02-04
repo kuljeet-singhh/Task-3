@@ -5,8 +5,7 @@ function distinctEle(arr){
 for(let i=0;i<arr.length;i++){
     let temp= false;
     for(let j =0; j<ans.length;j++){
-       if(arr[i]===ans
-        [j]){
+       if(arr[i]===ans[j]){
         temp=true;
       
        }
